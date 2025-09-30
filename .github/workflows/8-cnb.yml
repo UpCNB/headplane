@@ -6,7 +6,7 @@ on:
 
 jobs:
   call:
-    uses: weu8/workflows/.github/workflows/cnb-all.yml@main
+    uses: UpCNB/workflows/.github/workflows/cnb-sync.yml@main
     with:
       upstream_repo: https://github.com/tale/headplane
       cnb_repo_url:  https://cnb.cool/g.h/headplane
