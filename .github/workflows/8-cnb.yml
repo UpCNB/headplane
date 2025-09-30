@@ -1,7 +1,6 @@
-name: 8 CNB integration
+name: 8 CNB sync
 on:
   schedule: [{ cron: "*/30 * * * *" }]
-  push: { branches: ["ai/**"] }
   workflow_dispatch:
 
 jobs:
