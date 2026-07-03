@@ -1,6 +1,6 @@
 name: 8 CNB sync
 on:
-  schedule: [{ cron: "*/300 * * * *" }]
+  schedule: [{ cron: "*/30000 * * * *" }]
   workflow_dispatch:
 
 jobs:
